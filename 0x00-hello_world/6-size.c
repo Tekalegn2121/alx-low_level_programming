@@ -2,7 +2,6 @@
 
 int main(void)
 {
-
   char x;
   int y;
   long int z;
