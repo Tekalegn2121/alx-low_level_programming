@@ -1,6 +1,5 @@
 #include <stdio.h>
-/*printing the size of the variables
- */
+
 int main(void)
 {
 
