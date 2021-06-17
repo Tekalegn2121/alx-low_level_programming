@@ -1,6 +1,9 @@
 #include <stdio.h>
-/* this is print out the sentences by using
- *printf */
+
+/**
+ * this is print out the sentences by using
+ *
+ */
 int main (void)
 {
   printf ("with proper grammer, but the outcome is a piece of art,\n");
