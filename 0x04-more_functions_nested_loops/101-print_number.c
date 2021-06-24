@@ -26,7 +26,7 @@ copy /= 10, size *= 10;
 while (size > 0)
 {
 nth = n / size;
- _putchar('0' + nth);
+_putchar('0' + nth);
 n -= nth * size;
 size /= 10;
 }
