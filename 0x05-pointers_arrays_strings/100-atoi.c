@@ -1,7 +1,7 @@
 #include "holberton.h"
 
- /**
- * _strlen - returns the length of a string
+/**
+* _strlen - returns the length of a string
 * @s: string
 * Return: length
 */
@@ -29,7 +29,7 @@ int idx_num_starts(char *s)
 int i;
 
 for (i = 0; i < _strlen(s); i++)
-    {
+{
 if (s[i] >= '0' && s[i] <= '9')
 return (i);
 }
@@ -79,8 +79,8 @@ sign = find_sign(s);
 
 while ((s[idx_digit_starts] >= '0' && s[idx_digit_starts] <= '9')
 && (idx_digit_starts <= _strlen(s))) /* count digits to print */
- {
- digits_to_print += 1;
+{
+digits_to_print += 1;
 idx_digit_starts++;
 }
 
