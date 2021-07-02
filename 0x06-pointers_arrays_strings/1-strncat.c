@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*_trncat - Concatenates two strings
+*_strncat - Concatenates two strings
 * @dest: The destination value
 * @src: The source value
 * @n: The limit of the concatenation
