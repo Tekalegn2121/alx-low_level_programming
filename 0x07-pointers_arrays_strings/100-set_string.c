@@ -1,18 +1,11 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * main - check the code inside the body
- *
- * Return: Always 0.
+ * set_string - Sets the value of a pointer to a char.
+ * @s: The pointer.
+ * @to: The char.
  */
-int main(void)
+void set_string(char **s, char *to)
 {
-    char *t0 = "Teka Bareku";
-    char *t1 = "Fasika molla";
-
-    printf("%st, %t\n", t0, t1);
-    set_string(&t1, ts0);
-    printf("%t, %t\n", s0, t1);
-    return (0);
+	*s = to;
 }
