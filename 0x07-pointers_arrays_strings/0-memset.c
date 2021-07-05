@@ -11,11 +11,11 @@
 */
 void *_memset(void *s, int c, size_t n)
 {
-unsigned int point;
+unsigned int index;
 unsigned char *memory = s, value = c;
 
-for (point = 0; point < n; index++)
-memory[point] = value;
+for (index = 0; index < n; index++)
+memory[index] = value;
 
 return (memory);
 }
