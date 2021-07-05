@@ -1,0 +1,1 @@
+This is advaced pointer, string and array
