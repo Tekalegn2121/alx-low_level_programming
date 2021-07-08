@@ -1,15 +1,20 @@
 #include "holberton.h"
-/**
- *_print_rev_recursion -   prints a string in reverse
- *@s: pointer block of memory to fill
- *Return: void
- */
 
+/**
+ * _print_rev_recursion - Print a string in reverse
+ * @s: the string to reverse
+ *
+ * Return: Nothing.
+ */
 void _print_rev_recursion(char *s)
 {
-	if (*s) /*IF*/
+	if (*s == '\0')
 	{
-		_print_rev_recursion(s + 1); /*add s*/
-		_putchar(*s); /*print s*/
+		return;
 	}
+
+	s++;
+	_print_rev_recursion(s);
+	s--;
+	_putchar(*s);
 }
